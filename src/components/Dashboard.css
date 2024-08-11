@@ -1,0 +1,94 @@
+.dashboard {
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px dashed #ffa07a;
+  border-radius: 15px;
+  background-color: #fafad2;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.dashboard input {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.dashboard button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dashboard button:hover {
+  background-color: #218838;
+}
+
+.flashcard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.flashcard-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.flashcard-item button:hover {
+  background-color: #c82333;
+}
+
+button {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ff1493;
+}
+
+button:disabled {
+  background-color: #ffc0cb;
+  cursor: not-allowed;
+}
